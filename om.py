@@ -1,0 +1,2 @@
+def om():
+print "prakash"
