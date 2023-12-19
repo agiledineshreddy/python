@@ -49,6 +49,8 @@ print(a)
 
 a.insert(1,333)#insert method inserts elements at specified position
 print(a)
+a.extend(g)#extend() method adds the specified list elements to end of current list  
+print(a)
 
 #delete list///
 
