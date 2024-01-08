@@ -9,5 +9,11 @@ Print Right Angle Triangle with number are in continuous column pattern
 '''
 n=int(input("enter num of rows:"))
 for i in range(n):
-    print(i)
-    for j in range(i):
+    var=i+1
+    dec=n-1
+    for j in range(i+1):
+        print(var,end=' ')
+        var=var+dec
+        dec=dec-1
+        
+    print()
