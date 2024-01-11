@@ -13,4 +13,3 @@ for em in emp:
     c.append(b.title())
 print(b)
 print(c)
-

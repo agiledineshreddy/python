@@ -11,6 +11,12 @@ while d<=10:
     d=d+1
 print(m)
 
+#using lambda
+from functools import reduce
+na=list(filter(lambda a:a<=10,range(100)))
+print(na)
+su=reduce(lambda a,b:a+b,na)
+print(su)
 
 
        
