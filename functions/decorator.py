@@ -13,4 +13,16 @@ def moto2(cc):
 
 moto2(int(input("enter your bike CC:")))
 
-        
+print("''''''")
+def out(func):
+    def inn(a,b):
+        if b==0:
+            return "division not possible"
+        else:
+            return func(a,b)    
+    return inn
+@out
+def nor(a,b):
+    return a//b
+print(nor(10,0))
+print(nor(10,3))
