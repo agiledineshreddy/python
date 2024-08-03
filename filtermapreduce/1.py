@@ -1,0 +1,11 @@
+from functools import reduce
+a=range(2,30,1)
+b=range(1,30,2)
+c=list(map(lambda e,f:e+f,a,b))
+print(c)
+d=reduce(lambda g,d:g+d,c)
+print(d)
+j=list(map(lambda a:a+1,c))
+print(j)
+k=list(filter(lambda a:a%2==0,j))
+print(k)

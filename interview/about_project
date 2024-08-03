@@ -1,0 +1,24 @@
+overview::
+The goal of this project is to predict the popularity of cars based on various features using machine learning techniques. This involves collecting data, visualizing it, training a model, and making predictions. We use supervised learning, 
+specifically Support Vector Machines (SVM), to make accurate predictions.
+
+Data Collection and Preprocessing::
+We collected data from various sources, which includes features relevant to car pricing and popularity. The dataset includes attributes such as:
+
+Buying Price
+Maintenance Cost
+Number of Doors
+Number of Seats
+Luggage Boot Size
+Safety Rating
+
+Model Training and Prediction:
+We use the Support Vector Machine (SVM) algorithm with an RBF kernel to build our model. The SVM classifier is trained on features from the training data, with the target variable being car popularity.
+
+
+Programming Language: Python
+
+Libraries: Pandas (for data manipulation), Scikit-learn (for machine learning algorithms)
+Web Framework: Django (for building the web application)
+Data Storage: MySQL (for database management)
+Development Tools: PyCharm, Visual Studio Code
